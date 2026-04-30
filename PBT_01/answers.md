@@ -63,4 +63,17 @@ Nguồn tham chiếu: 04_visible_part_html.md
     + Code rối, khó bảo trì: Phải lồng nhiều `<tr>`, `<td>`, khó sửa và mở rộng.
     + Hiệu năng kém: Trình duyệt phải render gần như toàn bộ bảng rồi mới hiển thị.
 
-## 
+## Câu B3:
+* Lỗi 1: Dòng 1 — <!DOCTYPE> thiếu html — sửa thành `<!DOCTYPE html>`
+* Lỗi 2: Dòng 2 — thiếu thuộc tính lang — thêm lang="vi"
+* Lỗi 3: Dòng 4 — `<title>` không đóng — thêm `</title>`
+* Lỗi 4: Dòng 5 — charset sai (utf8) — sửa thành UTF-8
+* Lỗi 5: Dòng 8 — thẻ `<h1>` không đóng đúng — sửa `</h1>`
+* Lỗi 6: Dòng 12 — thẻ `<a>` không đóng — thêm `</a>`
+* Lỗi 7: Dòng 13 — link không đúng (home, products) — sửa thành #home, #products
+* Lỗi 8: Dòng 18 — `<img>` thiếu dấu ngoặc kép và alt — sửa src="iphone.jpg" và thêm alt
+* Lỗi 9: Dòng 20 — thẻ `<b>` đóng sai thứ tự — sửa thành `<strong>...</strong>`
+* Lỗi 10: Dòng 30 — bảng thiếu `<thead>` và `<tbody>` — bổ sung cấu trúc
+* Lỗi 11: Dòng 38 — dùng 2 thẻ `<main>` là sai semantic — thay cái thứ 2 bằng `<aside>`
+* Lỗi 12: Dòng 43 — `<p>` trong footer không đóng — thêm `</p>`
+* Lỗi 13: Dòng 44 — thiếu đóng `</html>`
