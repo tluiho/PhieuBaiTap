@@ -58,4 +58,11 @@
 - Cách 2 `<figure> + <figcaption>`: Dùng khi hình ảnh là một phần của nội dung, cần một lời giải thích (caption) đi kèm để ngữ cảnh được trọn vẹn. Nó tạo thành một khối thông tin thống nhất.
     Ví dụ: Ảnh sản phẩm kèm giá/tên, biểu đồ trong bài báo cần tiêu đề giải thích biểu đồ đó.
 
-# 
+# Phần B:
+## Bài B1:
+HTML không thể tự kiểm tra "confirm password" vì:
+- HTML validation chỉ kiểm tra từng input riêng lẻ
+- Không thể so sánh giá trị giữa 2 input (password vs confirm)
+- Muốn kiểm tra phải dùng JavaScript
+=> Hạn chế của HTML5 validation
+## 
