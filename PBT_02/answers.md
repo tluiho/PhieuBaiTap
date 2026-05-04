@@ -101,3 +101,6 @@ HTML không thể tự kiểm tra "confirm password" vì:
 4. Hai rủi ro bảo mật lớn nếu chỉ validate trên Frontend:
     - Tấn công: Kẻ tấn công có thể gửi các đoạn mã độc thông qua các trường nhập liệu để phá hủy cơ sở dữ liệu hoặc đánh cắp thông tin người dùng khác.
     - Sai lệch dữ liệu: Dữ liệu rác hoặc sai định dạng sẽ được lưu vào hệ thống, dẫn đến việc xử lý lỗi phần mềm ở máy chủ hoặc làm hỏng hệ thống báo cáo.
+
+## Phần D: Video OBS
+https://drive.google.com/file/d/1sWu_UGKVO7TJTa-Lqdx-wruXbRcEPlmm/view?usp=sharing
