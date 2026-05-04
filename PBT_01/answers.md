@@ -116,3 +116,5 @@ Một ví dụ rõ ràng: dùng `<button>` thay vì `<div>` để làm nút. `<b
 Tuy nhiên, `<div>` vẫn rất hữu ích khi làm container layout hoặc nhóm các phần tử không có ý nghĩa riêng, ví dụ khi dùng Flexbox/Grid để chia cột.
 
 Tóm lại, semantic HTML không phải “tốn thời gian”, mà là khoản đầu tư giúp code rõ ràng, dễ bảo trì và thân thiện hơn với cả máy lẫn người.
+## Phần D :
+https://drive.google.com/file/d/1l7Kv9Fn2DH2N2iVLyxrVjjWiwDgVlZKo/view?usp=sharing
