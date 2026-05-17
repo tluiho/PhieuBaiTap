@@ -20,38 +20,39 @@
 </head>
 <body>
     <header>
-        <div class="logo">ThuLoi<span></span></div>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact" class="nav-contact">Contact</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="#">ThuLoi</a>
+        <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
         </nav>
-    </div>
-</header>
+    </header>
 <main> 
-    <section class="hero">
-        <h1>Hi, I'm <span>Thu Loi</span></h1>
-        <p>Full-Stack Developer | UI Designer | Problem Solver</p>
-        <a href="#portfolio" class="cta-button">View My Work</a>
-    </section>
-    <section id="about" class="about-section">
-    <div class="container">
-        <div class="about-grid">
-            <div class="about-image">
-                <img src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/514072394_725237446649405_1023909716711380177_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeEnkfgpw0WyOS_cfBhXnMVNmKf5a0QR_aKYp_lrRBH9ov0lZZ2Y-Jb9ddQWWFmhMEqV8VVvzdBNIEMbbnDt_ZRW&_nc_ohc=0hVgsG50cF4Q7kNvwEWaswi&_nc_oc=Adph49xa8CHHCYnw8nntQCkPdPVg7ZeSfwjEz7r4a-hQHYUUP3dYgPn8eRTaQDg2e4v_A3ElH833riy2GyC5vvbX&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=xfK6Mb8JYrhAXYBER3u6cA&_nc_ss=7b2a8&oh=00_Af7Nkq_m22HEUx_gL24rRGeQAZh2mD2PMLHM-iCptW6KPg&oe=6A0693FA" alt="Profile Photo">
-            </div>
-            <div class="about-content">
-                <h2>About Me</h2>
-                <p class="lead">I'm a passionate developer with 3+ years of experience building web applications.</p>
-                <p>Specialized in Frontend development with React and Vue. Also experienced in Backend with Node.js and Python.</p>
-            </div>
+    <section class="min-vh-100 d-flex align-items-center justify-content-center text-center text-white"
+         style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="container">
+        <h1 class="display-2 fw-bold mb-3">
+            Hi, I'm <span class="text-warning">Thu Loi</span>
+        </h1>
+        <p class="lead mb-4 opacity-75">Full-Stack Developer | UI Designer | Problem Solver</p>
+        <a href="#portfolio" class="btn btn-light btn-lg px-5 py-3 fw-semibold">
+            View My Work →
+        </a>
         </div>
     </section>
     <section id="skills" class="skills-section">
@@ -108,70 +109,68 @@
             <button class="filter-btn">Design</button>
         </div>
 
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="web">
-                    <a href="#lightbox-1" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-13.jpg" alt="Project 1">
-                    </a>
-
-                    <div class="portfolio-overlay">
-                        <h3>E-Commerce Website</h3>
-                        <p>React + Node.js</p>
-                    </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">E-Commerce Website</h5>
+                    <p class="card-text text-muted">React + Node.js</p>
                 </div>
-                <div class="portfolio-item" data-category="web">
-                    <a href="#lightbox-2" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-16.jpg" alt="Project 2">
-                    </a>
+            </div>
+            </div>
 
-                    <div class="portfolio-overlay">
-                        <h3>Business Landing Page</h3>
-                        <p>HTML + CSS</p>
-                    </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-13.jpg" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Online Learning Platform</h5>
+                    <p class="card-text text-muted">Vue.js + Firebase</p>
                 </div>
-                <div class="portfolio-item" data-category="web">
-                    <a href="#lightbox-3" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-17.jpg" alt="Project 3">
-                    </a>
+            </div>
+            </div>
 
-                    <div class="portfolio-overlay">
-                        <h3>Dashboard UI</h3>
-                        <p>Vue.js + Firebase</p>
-                    </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-16.jpg" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Personal Portfolio</h5>
+                    <p class="card-text text-muted">HTML5 + Bootstrap 5</p>
                 </div>
-                <div class="portfolio-item" data-category="mobile">
-                    <a href="#lightbox-4" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-18.jpg" alt="Project 4">
-                    </a>
+            </div>
+            </div>
 
-                    <div class="portfolio-overlay">
-                        <h3>Fitness Mobile App</h3>
-                        <p>Flutter</p>
-                    </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-17.jpg" class="card-img-top" alt="Project 4">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Crypto Dashboard</h5>
+                    <p class="card-text text-muted">React + Tailwind CSS</p>
                 </div>
-                <div class="portfolio-item" data-category="mobile">
-                    <a href="#lightbox-5" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-21.jpg" alt="Project 5">
-                    </a>
+            </div>
+            </div>
 
-                    <div class="portfolio-overlay">
-                        <h3>Travel Booking App</h3>
-                        <p>React Native</p>
-                    </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-18.jpg" class="card-img-top" alt="Project 5">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Weather Forecast App</h5>
+                    <p class="card-text text-muted">Vanilla JS + OpenWeather API</p>
                 </div>
-                <div class="portfolio-item" data-category="design">
-                    <a href="#lightbox-6" class="lightbox-link">
-                        <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-7.jpg" alt="Project 6">
-                    </a>
+            </div>
+            </div>
 
-                    <div class="portfolio-overlay">
-                        <h3>Creative Branding</h3>
-                        <p>Figma + Photoshop</p>
-                    </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden">
+                <img src="https://pixdep.com/wp-content/uploads/2025/06/anh-meo-meme-21.jpg" class="card-img-top" alt="Project 6">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Task Management Tool</h5>
+                    <p class="card-text text-muted">Next.js + PostgreSQL</p>
                 </div>
-
+            </div>
             </div>
         </div>
+    </div>
     </section>
 
     <div id="lightbox-1" class="lightbox">
